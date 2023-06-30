@@ -1,11 +1,13 @@
 import './App.css'
+import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <div className='px-6 lg:px-12 bg-slate-900'>
+    <div className='px-6 lg:px-12 bg-slate-800'>
       <Navbar></Navbar>
+      <Banner></Banner>
     </div>
   )
 }
