@@ -22,7 +22,7 @@ const Navbar = () => {
                         <a className='hover:text-textColor1 transition-colors duration-100' href="#">4. Contact Me</a>
                     </li>
                     <li>
-                        <a download={'MyResume'} className='inline-block rounded-sm py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="/public/resume.pdf">Resume</a>
+                        <a download={'MyResume'} className='inline-block rounded-sm py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="resume.pdf">Resume</a>
                     </li>
                 </ul>
                 {/* for mobile devices */}
@@ -50,7 +50,7 @@ const Navbar = () => {
                                     <a className='hover:text-textColor1 transition-colors duration-100' href="#">4. Contact Me</a>
                                 </li>
                                 <li>
-                                    <a download={"MyResume"} className='inline-block rounded-sm py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="/public/resume.pdf">Resume</a>
+                                    <a download={"MyResume"} className='inline-block rounded-sm py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="resume.pdf">Resume</a>
                                 </li>
                             </ul>
                         </div>

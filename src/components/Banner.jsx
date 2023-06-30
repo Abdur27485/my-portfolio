@@ -18,7 +18,7 @@ const Banner = () => {
                 <a href="mailto:abdurrahman27485@gmail.com">
                     <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Get In Touch</button>
                 </a>
-                <a href="/public/resume.pdf" download={"MyResume"}>
+                <a href="resume.pdf" download={"MyResume"}>
                     <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Resume</button>
                 </a>
             </div>
