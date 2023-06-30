@@ -15,8 +15,12 @@ const Banner = () => {
             <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl text-justify mb-10'>Always try to learn new skills to become the better version of myself.</p>
 
             <div className='lg:space-x-5 sm:space-x-5 space-y-5'>
-                <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Get In Touch</button>
-                <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Resume</button>
+                <a href="mailto:abdurrahman27485@gmail.com">
+                    <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Get In Touch</button>
+                </a>
+                <a href="/public/resume.pdf" download={"MyResume"}>
+                    <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Resume</button>
+                </a>
             </div>
         </div>
     );
