@@ -1,4 +1,6 @@
 import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const Projects = () => {
     return (
@@ -34,73 +36,20 @@ const Projects = () => {
                             <p>MongoDb</p>
                         </div>
                     </div>
-                    <div>
-                        <img src="https://dradisframework.com/images/pro/screenshots/screenshot-62_small.png" alt="" />
-                    </div>
-                </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div>
-                        <h3 className='text-lg lg:text-xl text-green-400 mb-5'>2. MERN Project - <span className='text-white'>ToyGo</span></h3>
-                        <a href="#" className='text-white'>Live</a>
-                        <span className='text-green-400 mx-5'>|</span>
-                        <a href="#" className='text-white'>Client Code</a>
-                        <span className='text-green-400 mx-5'>|</span>
-                        <a href="#" className='text-white'>Server Code</a>
-                        <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
-                            <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
-                                <li>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur assumenda magnam.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur assumenda magnam.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur assumenda magnam.
-                                </li>
-                            </ol>
+                    <Carousel showArrows={true}>
+                        <div>
+                            <img src="https://t4.ftcdn.net/jpg/03/23/82/99/360_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg" />
+                            <p className="legend bg-black bg-opacity-100">Legend 1</p>
                         </div>
-                        <div className='flex gap-5 text-green-400'>
-                            <p>React</p>
-                            <p>ExpressJs</p>
-                            <p>Firebase Authentication</p>
-                            <p>MongoDb</p>
+                        <div>
+                            <img src="https://t4.ftcdn.net/jpg/03/23/82/99/360_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg" />
+                            <p className="legend">Legend 2</p>
                         </div>
-                    </div>
-                    <div>
-                        <img src="https://i.ytimg.com/vi/wgiW1uFZYr8/maxresdefault.jpg" alt="" />
-                    </div>
-                </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div>
-                        <h3 className='text-lg lg:text-xl text-green-400 mb-5'>3. MERN Project - <span className='text-white'>Recipe Hunter</span></h3>
-                        <a href="#" className='text-white'>Live</a>
-                        <span className='text-green-400 mx-5'>|</span>
-                        <a href="#" className='text-white'>Client Code</a>
-                        <span className='text-green-400 mx-5'>|</span>
-                        <a href="#" className='text-white'>Server Code</a>
-                        <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
-                            <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
-                                <li>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur assumenda magnam.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur assumenda magnam.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur assumenda magnam.
-                                </li>
-                            </ol>
+                        <div>
+                            <img src="https://t4.ftcdn.net/jpg/03/23/82/99/360_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg" />
+                            <p className="legend">Legend 3</p>
                         </div>
-                        <div className='flex gap-5 text-green-400'>
-                            <p>React</p>
-                            <p>ExpressJs</p>
-                            <p>Firebase Authentication</p>
-                            <p>MongoDb</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="https://dradisframework.com/images/pro/screenshots/screenshot-62_small.png" alt="" />
-                    </div>
+                    </Carousel>
                 </div>
             </div>
         </div>
