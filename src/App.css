@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* carousel thumbnails */
+.thumbs{
+    display: flex;
+    justify-content: center;
+}
