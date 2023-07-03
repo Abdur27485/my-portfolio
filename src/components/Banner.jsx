@@ -11,8 +11,8 @@ const Banner = () => {
             </div>
             <h1 className='text-4xl lg:text-7xl text-white font-bold mb-5'>Abdur Rahman</h1>
             <h2 className='text-4xl lg:text-7xl text-gray-400 font-bold capitalize mb-10'>i love exploring new things!</h2>
-            <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl text-justify mb-5'>I'm currently studying in Intermediate 1st year in Business Studies at Principal Kazi Faruky School & College. Interested to discover and learn new skills everyday.</p>
-            <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl text-justify mb-10'>Always try to learn new skills to become the better version of myself.</p>
+            <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl mb-5'>I'm currently studying in Intermediate 1st year in Business Studies at Principal Kazi Faruky School & College. Interested to discover and learn new skills everyday.</p>
+            <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl mb-10'>Always try to learn new skills to become the better version of myself.</p>
 
             <div className='lg:space-x-5 sm:space-x-5 space-y-5'>
                 <a href="mailto:abdurrahman27485@gmail.com" className='inline-block'>
