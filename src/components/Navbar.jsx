@@ -35,16 +35,13 @@ const Navbar = () => {
                             <ul className="bg-slate-800 p-10 space-y-5 lg:w-80 h-full">
                                 {/* Sidebar content here */}
                                 <li>
-                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#">1. Home</a>
+                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#projects">1. Projects</a>
                                 </li>
                                 <li>
-                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#">2. Projects</a>
+                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#contactMe">2. Contact Me</a>
                                 </li>
                                 <li>
-                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#">3. About Me</a>
-                                </li>
-                                <li>
-                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#">4. Contact Me</a>
+                                    <a className='hover:text-textColor1 transition-colors duration-100' href="#aboutMe">3. About Me</a>
                                 </li>
                                 <li>
                                     <a download={"MyResume"} className='inline-block rounded-sm py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="resume.pdf">Resume</a>
