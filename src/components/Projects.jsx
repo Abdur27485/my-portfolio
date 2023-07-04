@@ -40,7 +40,83 @@ const Projects = () => {
                     <div className='flex justify-center items-center w-full'>
                         <div className=" max-w-full h-96  w-full overflow-hidden">
                             <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
-                                <img src="./triolingo/home.png" alt="" class="w-full object-cover object-top" /></div>
+                                <img src="./../../public/triolingo-home.png" alt="" class="w-full object-cover object-top" /></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:flex-nowrap gap-5 bg-slate-950 p-5 rounded-md glass">
+                    <div>
+                        <h3 className='text-lg lg:text-xl text-green-400 mb-5'>1. MERN Project - <span className='text-white'>Toygo</span></h3>
+                        <a href="https://toygo-27485.web.app/" className='text-white'>Live</a>
+                        <span className='text-green-400 mx-5'>|</span>
+                        <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='text-white'>Client Code</a>
+                        <span className='text-green-400 mx-5'>|</span>
+                        <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='text-white'>Server Code</a>
+                        <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
+                            <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
+                                <li>
+                                    Login & registration using Firebase authentication.
+                                </li>
+                                <li>
+                                    Add new toys to your shop
+                                </li>
+                                <li>
+                                    See your added toys in My toys page
+                                </li>
+                            </ol>
+                        </div>
+                        <div className='flex flex-wrap gap-5 text-green-400'>
+                            <p>React</p>
+                            <p>TailwindCSS</p>
+                            <p>DaisyUI</p>
+                            <p>ExpressJs</p>
+                            <p>Firebase Authentication</p>
+                            <p>MongoDb</p>
+                        </div>
+                    </div>
+                    <div className='flex justify-center items-center w-full'>
+                        <div className=" max-w-full h-96  w-full overflow-hidden">
+                            <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
+                                <img src="./../../public/toygo-home.png" alt="" class="w-full object-cover object-top" /></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:flex-nowrap gap-5 bg-slate-950 p-5 rounded-md glass">
+                    <div>
+                        <h3 className='text-lg lg:text-xl text-green-400 mb-5'>1. MERN Project - <span className='text-white'>Food Hunt</span></h3>
+                        <a href="https://food-hunt27485.netlify.app/" className='text-white'>Live</a>
+                        <span className='text-green-400 mx-5'>|</span>
+                        <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='text-white'>Client Code</a>
+                        <span className='text-green-400 mx-5'>|</span>
+                        <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='text-white'>Server Code</a>
+                        <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
+                            <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
+                                <li>
+                                    User can bookmark their favourite food recipes.
+                                </li>
+                                <li>
+                                   Choose recipes based on your desired chefs.
+                                </li>
+                                <li>
+                                    Newsletter subscription to be notified about new recipes
+                                </li>
+                            </ol>
+                        </div>
+                        <div className='flex flex-wrap gap-5 text-green-400'>
+                            <p>React</p>
+                            <p>TailwindCSS</p>
+                            <p>DaisyUI</p>
+                            <p>ExpressJs</p>
+                            <p>Firebase Authentication</p>
+                            <p>MongoDb</p>
+                        </div>
+                    </div>
+                    <div className='flex justify-center items-center w-full'>
+                        <div className=" max-w-full h-96  w-full overflow-hidden">
+                            <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
+                                <img src="./../../public/foodHunt-home.png" alt="" class="w-full object-cover object-top" /></div>
                         </div>
                     </div>
                 </div>
