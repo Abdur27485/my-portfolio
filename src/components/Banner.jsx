@@ -14,7 +14,7 @@ const Banner = () => {
             <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl mb-5'>I'm currently studying in Intermediate 1st year in Business Studies at Principal Kazi Faruky School & College. Interested to discover and learn new skills everyday.</p>
             <p className='text-slate-500 text-xl lg:text-2xl max-w-3xl mb-10'>Always try to learn new skills to become the better version of myself.</p>
 
-            <div className='lg:space-x-5 sm:space-x-5 space-y-5'>
+            <div className='flex gap-5 flex-wrap'>
                 <a href="mailto:abdurrahman27485@gmail.com" className='inline-block'>
                     <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Get In Touch</button>
                 </a>

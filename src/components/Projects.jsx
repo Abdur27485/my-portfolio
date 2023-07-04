@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Projects = () => {
     return (
         <div className='mt-32 lg:mx-20'>
-            <h2 className='text-3xl inline-block lg:text-5xl text-white mb-10 font-semibold'>Things I've built</h2>
+            <h2 className='text-3xl block lg:text-5xl text-white mb-16 font-semibold text-center'><span className='text-green-500'>1. </span>My Projects</h2>
 
             <div className='grid grid-cols-1 gap-20'>
                 <div className="flex flex-wrap lg:flex-nowrap gap-5">

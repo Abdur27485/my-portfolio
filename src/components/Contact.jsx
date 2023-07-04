@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
     const form = useRef();
@@ -9,15 +10,28 @@ const Contact = () => {
         emailjs.sendForm('service_7roprbt', 'template_2ttcg1j', form.current, 'PEJVawtqkH5FhecuB')
             .then((result) => {
                 console.log(result.text);
+                Swal.fire({
+                    icon: 'success',
+                    text: 'Message Sent!'
+                })
+                form.current.reset();
             }, (error) => {
                 console.log(error.text);
+                Swal.fire({
+                    icon: 'error',
+                    text: 'Failed to send message'
+                })
+                form.current.reset()
             });
     };
     return (
         <div className='lg:mx-32 mt-32 pb-32'>
+            <h2 className='text-3xl block lg:text-5xl text-white mb-16 font-semibold text-center'>
+                <span className='text-green-500'>2. </span>
+                Contact Me
+            </h2>
             <div className="flex flex-wrap lg:flex-nowrap gap-x-10">
                 <div className='w-full'>
-                    <h2 className='text-3xl inline-block lg:text-5xl text-white mb-5 font-semibold'>Get In Touch</h2>
                     <p className='text-green-400 mb-2 font-semibold text-base'>
                         <span className='font-bold'>Email - </span>
                         abdurrahman27485@gmail.com
@@ -25,7 +39,7 @@ const Contact = () => {
                     </p>
                     <p className='text-green-400 mb-2 font-semibold text-base'>
                         <span className='font-bold'>Phone - </span>
-                        +880 01728913008
+                        (+880) 01728913008
                         <span className='text-white'> ( Not always available )</span>
                     </p>
                     <p className='text-green-400 mb-10 font-semibold text-base'>
