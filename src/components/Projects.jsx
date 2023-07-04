@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Projects = () => {
     return (
-        <div className='mt-32 lg:mx-20'>
+        <div id='projects' className='mt-32 lg:mx-20 scroll-m-10'>
             <h2 className='text-3xl block lg:text-5xl text-white mb-16 font-semibold text-center'><span className='text-green-500'>1. </span>My Projects</h2>
 
             <div className='grid grid-cols-1 gap-20'>
@@ -32,6 +32,7 @@ const Projects = () => {
                         <div className='flex flex-wrap gap-5 text-green-400'>
                             <p>React</p>
                             <p>ExpressJs</p>
+                            <p>JWT</p>
                             <p>Firebase Authentication</p>
                             <p>MongoDb</p>
                         </div>
