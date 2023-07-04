@@ -42,7 +42,7 @@ const Projects = () => {
                         <div className='flex justify-center items-center w-full'>
                             <div className=" max-w-full h-96  w-full overflow-hidden">
                                 <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
-                                    <img src="./../../public/triolingo-home.png" alt="" class="w-full object-cover object-top" /></div>
+                                    <img src="triolingo-home.png" alt="" class="w-full object-cover object-top" /></div>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                         <div className='flex justify-center items-center w-full'>
                             <div className=" max-w-full h-96  w-full overflow-hidden">
                                 <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
-                                    <img src="./../../public/toygo-home.png" alt="" class="w-full object-cover object-top" /></div>
+                                    <img src="toygo-home.png" alt="" class="w-full object-cover object-top" /></div>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ const Projects = () => {
                         <div className='flex justify-center items-center w-full'>
                             <div className=" max-w-full h-96  w-full overflow-hidden">
                                 <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
-                                    <img src="./../../public/foodHunt-home.png" alt="" class="w-full object-cover object-top" /></div>
+                                    <img src="foodHunt-home.png" alt="" class="w-full object-cover object-top" /></div>
                             </div>
                         </div>
                     </div>
