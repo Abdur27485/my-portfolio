@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className='lg:mx-20 pb-32'>
             <h2 className='text-3xl block lg:text-5xl text-white mb-16 font-semibold text-center'>
-                <span className='text-green-500'>4. </span>
+                <span className='text-green-500'>3. </span>
                 About Me</h2>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                     <img className='rounded-3xl max-w-sm w-full mx-auto' src="https://scontent.fbzl4-1.fna.fbcdn.net/v/t39.30808-6/342644041_247336164486249_207232722166810107_n.jpg?_nc_cat=102&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHzv5je70itzMTCJkdvs-wLUKfOsPlCTcFQp86w-UJNwapqzLzwBLpejKJ5yc3VgeRM2Fkxg8TTDaFMExkoJYDi&_nc_ohc=mkre0CfleqkAX-bJcPu&_nc_ht=scontent.fbzl4-1.fna&oh=00_AfBRTujp9F7zC7f-Av5J7qXT7brl6C2SeqPl6-2kPZWOJQ&oe=64A87108" alt="" />
