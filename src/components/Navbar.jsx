@@ -19,7 +19,7 @@ const Navbar = () => {
                         <a className='hover:text-textColor1 transition-colors duration-100' href="#aboutMe">3. About Me</a>
                     </li>
                     <li>
-                        <a download={'MyResume'} className='inline-block rounded-sm py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="resume.pdf">Resume</a>
+                        <a download={'MyResume'} className='inline-block rounded-full py-1 px-5 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100 border-green-400 border-2' href="resume.pdf">Resume</a>
                     </li>
                 </ul>
                 {/* for mobile devices */}
@@ -28,7 +28,9 @@ const Navbar = () => {
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-content">
                             {/* Page content here */}
-                            <label htmlFor="my-drawer-4" className="">                    <CgMenuRight className='w-6 h-6'></CgMenuRight></label>
+                            <label htmlFor="my-drawer-4" className="">
+                                <CgMenuRight className='w-6 h-6'></CgMenuRight>
+                            </label>
                         </div>
                         <div className="drawer-side">
                             <label htmlFor="my-drawer-4" className="drawer-overlay"></label>

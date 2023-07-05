@@ -16,10 +16,10 @@ const Banner = () => {
 
             <div className='flex gap-5 flex-wrap'>
                 <a href="mailto:abdurrahman27485@gmail.com" className='inline-block'>
-                    <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Get In Touch</button>
+                    <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Get In Touch</button>
                 </a>
                 <a href="resume.pdf" download={"MyResume"} className='inline-block'>
-                    <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-md text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Resume</button>
+                    <button className='py-2 px-10 border-2 text-2xl font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Resume</button>
                 </a>
             </div>
         </div>

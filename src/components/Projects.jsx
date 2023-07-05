@@ -13,11 +13,14 @@ const Projects = () => {
                     <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:flex-nowrap gap-5 bg-slate-950 p-5 rounded-md glass">
                         <div>
                             <h3 className='text-lg lg:text-xl text-green-400 mb-5'>1. MERN Project - <span className='text-white'>Triolingo</span></h3>
-                            <a href="https://triolingo-27485.web.app/" className='text-white'>Live</a>
-                            <span className='text-green-400 mx-5'>|</span>
-                            <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='text-white'>Client Code</a>
-                            <span className='text-green-400 mx-5'>|</span>
-                            <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='text-white'>Server Code</a>
+                            <div className='flex gap-1 flex-wrap'>
+                                <a href="https://triolingo-27485.web.app/" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Live</a>
+
+                                <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Client Code</a>
+
+                                <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Server Code</a>
+                            </div>
+
                             <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
                                 <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
                                     <li>
@@ -51,12 +54,14 @@ const Projects = () => {
                 <Fade>
                     <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:flex-nowrap gap-5 bg-slate-950 p-5 rounded-md glass">
                         <div>
-                            <h3 className='text-lg lg:text-xl text-green-400 mb-5'>1. MERN Project - <span className='text-white'>Toygo</span></h3>
-                            <a href="https://toygo-27485.web.app/" className='text-white'>Live</a>
-                            <span className='text-green-400 mx-5'>|</span>
-                            <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='text-white'>Client Code</a>
-                            <span className='text-green-400 mx-5'>|</span>
-                            <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='text-white'>Server Code</a>
+                            <h3 className='text-lg lg:text-xl text-green-400 mb-5'>2. MERN Project - <span className='text-white'>Toygo</span></h3>
+                            <div className='flex gap-1 flex-wrap'>
+                                <a href="https://triolingo-27485.web.app/" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Live</a>
+
+                                <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Client Code</a>
+
+                                <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Server Code</a>
+                            </div>
                             <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
                                 <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
                                     <li>
@@ -92,12 +97,14 @@ const Projects = () => {
 
                     <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:flex-nowrap gap-5 bg-slate-950 p-5 rounded-md glass">
                         <div>
-                            <h3 className='text-lg lg:text-xl text-green-400 mb-5'>1. MERN Project - <span className='text-white'>Food Hunt</span></h3>
-                            <a href="https://food-hunt27485.netlify.app/" className='text-white'>Live</a>
-                            <span className='text-green-400 mx-5'>|</span>
-                            <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='text-white'>Client Code</a>
-                            <span className='text-green-400 mx-5'>|</span>
-                            <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='text-white'>Server Code</a>
+                            <h3 className='text-lg lg:text-xl text-green-400 mb-5'>3. MERN Project - <span className='text-white'>Food Hunt</span></h3>
+                            <div className='flex gap-1 flex-wrap'>
+                                <a href="https://triolingo-27485.web.app/" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Live</a>
+
+                                <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Abdur27485" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Client Code</a>
+
+                                <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Abdur27485" className='px-2 border-2 font-semibold border-green-400 rounded-full text-green-400 hover:bg-green-400 hover:bg-opacity-10 transition-all duration-100'>Server Code</a>
+                            </div>
                             <div className='my-5 rounded-md bg-slate-900 shadow-2xl'>
                                 <ol className='list-decimal text-white pl-10 p-5 space-y-5'>
                                     <li>
