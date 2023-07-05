@@ -32,18 +32,18 @@ const Contact = () => {
             </h2>
             <div className="flex flex-wrap lg:flex-nowrap gap-x-10">
                 <div className='w-full'>
-                    <p className='text-green-400 mb-2 font-semibold text-base'>
-                        <span className='font-bold'>Email - </span>
+                    <p className='text-green-400 mb-2 lg:mb-5 font-semibold text-base shadow hover:translate-x-2 transition-transform duration-100 ease-linear hover:shadow-md hover:shadow-green-400 shadow-green-400 px-5 py-2'>
+                        <span className='font-bold block text-white text-xl lg:text-3xl lg:mb-1'>Email </span>
                         abdurrahman27485@gmail.com
                         <span className='text-white'> ( Recommended )</span>
                     </p>
-                    <p className='text-green-400 mb-2 font-semibold text-base'>
-                        <span className='font-bold'>Phone - </span>
+                    <p className='text-green-400 mb-2 lg:mb-5 font-semibold text-base shadow hover:translate-x-2 transition-transform duration-100 ease-linear hover:shadow-md hover:shadow-green-400 shadow-green-400 px-5 py-2'>
+                        <span className='font-bold block text-white text-xl lg:text-3xl lg:mb-1'>Phone </span>
                         (+880) 01728913008
                         <span className='text-white'> ( Not always available )</span>
                     </p>
-                    <p className='text-green-400 mb-10 font-semibold text-base'>
-                        <span className='font-bold'>Facebook - </span>
+                    <p className='text-green-400 mb-12 lg:mb-5 font-semibold text-base shadow hover:translate-x-2 transition-transform duration-100 ease-linear hover:shadow-md hover:shadow-green-400 shadow-green-400 px-5 py-2'>
+                        <span className='font-bold block text-white text-xl lg:text-3xl' lg:mb-1>Facebook </span>
                         fb.com/AR27485
                         <span className='text-white'> ( Slow response )</span>
                     </p>
