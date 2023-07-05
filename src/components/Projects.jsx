@@ -43,7 +43,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='flex justify-center items-center w-full'>
-                            <div className=" max-w-full h-96  w-full overflow-hidden">
+                            <div className=" max-w-full h-48 lg:h-96  w-full overflow-hidden">
                                 <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
                                     <img src="triolingo-home.png" alt="" class="w-full object-cover object-top" /></div>
                             </div>
@@ -85,7 +85,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='flex justify-center items-center w-full'>
-                            <div className=" max-w-full h-96  w-full overflow-hidden">
+                            <div className=" max-w-full h-48 lg:h-96  w-full overflow-hidden">
                                 <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
                                     <img src="toygo-home.png" alt="" class="w-full object-cover object-top" /></div>
                             </div>
@@ -128,7 +128,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='flex justify-center items-center w-full'>
-                            <div className=" max-w-full h-96  w-full overflow-hidden">
+                            <div className=" max-w-full h-48 lg:h-96  w-full overflow-hidden">
                                 <div class="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-384px)]">
                                     <img src="foodHunt-home.png" alt="" class="w-full object-cover object-top" /></div>
                             </div>

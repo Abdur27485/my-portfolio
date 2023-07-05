@@ -35,7 +35,7 @@ const Contact = () => {
                     <p className='text-green-400 mb-2 lg:mb-5 font-semibold text-base shadow hover:translate-x-2 transition-transform duration-100 ease-linear hover:shadow-md hover:shadow-green-400 shadow-green-400 px-5 py-2'>
                         <span className='font-bold block text-white text-xl lg:text-3xl lg:mb-1'>Email </span>
                         abdurrahman27485@gmail.com
-                        <span className='text-white'> ( Recommended )</span>
+                        <span className='text-white inline-block'> ( Recommended )</span>
                     </p>
                     <p className='text-green-400 mb-2 lg:mb-5 font-semibold text-base shadow hover:translate-x-2 transition-transform duration-100 ease-linear hover:shadow-md hover:shadow-green-400 shadow-green-400 px-5 py-2'>
                         <span className='font-bold block text-white text-xl lg:text-3xl lg:mb-1'>Phone </span>
